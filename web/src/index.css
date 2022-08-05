@@ -1,0 +1,50 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav ul {
+  list-style: none;
+  /* background-color: #444; */
+  /* text-align: center; */
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  line-height: 40px;
+  height: 40px;
+  padding-inline: 20px;
+  /* width: 120px; */
+  /* border-bottom: 1px solid #888; */
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-bottom: 2px solid white;
+}
+
+nav a:hover, nav a.active-link:hover {
+  border-bottom: 2px solid lightgray;
+}
+
+nav a.active-link {
+  border-bottom: 2px solid black;
+}
+
+.auth-demo-container {
+  width: calc(100%/3);
+  flex: 1 1 33.3333%;
+  overflow: hidden;
+  border: 4px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.auth-demo-container h1 {
+  font-size: 2rem;
+  margin-top: 0;
+}
